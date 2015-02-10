@@ -1,0 +1,197 @@
+/*#superSmall:hover{
+	font-size: 20px;
+}*/
+/*.tableCell{
+	overflow: hidden;
+}*/
+td{
+	max-width:5px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+#superSmall{
+	font-size: 8px;
+}
+/*.superLarge{
+	font-size: 20px;
+}*/
+.tableSize{
+	width: 100%;
+	height: 100%;
+}
+.navText{
+	font-size: 18px;
+	font-color: white;
+}
+.buttonRightBorderRadiusNone{
+	border-right: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.buttonLeftBorderRadiusNone{
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.list{
+	display: inline;
+	list-style: none;
+}
+.backgroundBlack{
+	background-color: black;
+}
+.margin{
+	margin-bottom:70px;
+}
+.horizontallyCentered{
+	margin-right: 2%;
+	margin-left: 2%;
+} 
+.red{
+	color: red;
+}
+.white{
+	color:white;
+}
+.black{
+	color: black;
+}
+.grey{
+	color: grey;
+}
+.padded{
+	padding-top: 50px;
+}
+.left-margin{
+	margin-left: 5%;
+}
+/*.red{
+	background-color: red;
+}*/
+.visible{
+	visibility: visible;
+}
+.hidden{
+	visibility: hidden;
+}
+.alignCenter{
+	text-align: center;
+}
+#reviewVerse{
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+#reviewVerse>ul{
+	/*display: inline;*/
+	list-style: none;
+}
+#reviewVerse>ul>li{
+	display: inline;
+	/*color: grey;*/
+}
+
+.centered{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.flex{
+	display: flex;
+}
+
+.mainButton{
+	font-size: 20px;
+}
+
+#main{
+	background-color: #3D3D3D;
+	width: 100%;
+	height:100%;
+}
+
+#main>button{
+	/*background:linear-gradient(to bottom,white,grey);*/
+	border-radius: 5px;
+}
+
+#main >button:hover{
+	background:linear-gradient(to top,brown,red);
+	color: white;
+}
+
+@media(orientation:landscape){
+
+#main{
+   margin: 0%;
+   padding: 0px;
+   display:flex;
+   flex-direction:row;
+   align-items:space-around
+}
+
+#myPlans{
+	margin: 03%;
+	width: 20%;
+	flex:1 1;
+	order:1;
+}
+
+#review{
+	margin: 03%;
+	width: 20%;
+	flex:1 1;
+	order:2;
+}
+
+#read{
+	margin: 03%;
+	width: 20%;
+	flex:1 1;
+	order:3;
+}
+
+#rankings{
+	margin: 03%;
+	width: 20%;
+	flex:1 1;
+	order:4;
+}
+}
+@media(orientation:portrait){
+	#main{
+		width: 100%;
+		height: 100%;
+   margin: 0%;
+   padding: 0px;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:	space-around;
+}
+
+#myPlans{
+	margin:1%;
+	width: 60%;
+	flex:1 1;
+	order:1;
+}
+#review{
+	margin:1%;
+	width: 60%;
+	flex:1 1;
+	order:2;
+}
+#read{
+	margin:1%;
+	width: 60%;
+	flex:1 1;
+	order:3;
+}
+#rankings{
+	margin:1%;
+	width: 60%;
+	flex:1 1;
+	order:4;
+}
+}
